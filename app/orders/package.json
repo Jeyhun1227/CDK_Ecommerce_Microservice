@@ -1,0 +1,32 @@
+{
+  "name": "orders",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.156.1",
+    "@aws-sdk/client-dynamodb": "^3.87.0",
+    "@aws-sdk/client-eventbridge": "^3.100.0",
+    "@aws-sdk/lib-dynamodb": "^3.95.0",
+    "@middy/core": "^3.0.3",
+    "@middy/error-logger": "^3.0.3",
+    "@middy/http-event-normalizer": "^3.0.3",
+    "@middy/http-header-normalizer": "^3.0.3",
+    "@middy/http-security-headers": "^3.0.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "http-errors": "^2.0.0",
+    "http-status-codes": "^2.2.0",
+    "reflect-metadata": "^0.1.13",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.97",
+    "@types/http-errors": "^1.8.2",
+    "@types/uuid": "^8.3.4"
+  }
+}
